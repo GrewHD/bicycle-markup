@@ -676,11 +676,11 @@ img {
         padding: 20px 20px 10px;
     }
 
-    .swiper-wrapper .account-time {
-        font-size: 18px;
+    .rewiew .title h2 {
+        font-size: 16px;
     }
 
-    .swiper-wrapper p{
+    .rewiew .text-five-block{
         font-size: 14px;
     }
 
