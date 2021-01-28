@@ -205,6 +205,10 @@ img {
     position: relative;
 }
 
+.row [class^="col-"] {
+    overflow: hidden;
+}
+
 .col-66 {
     width: 66.6%;
     flex-grow: 1;
@@ -679,6 +683,37 @@ img {
     .swiper-wrapper p{
         font-size: 14px;
     }
+
+    .footer-information {
+        padding: 0 40px;
+    }
 }
 
+@media (max-width: 580px) {
+    .footer-information {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .container .footer-information .col-33 {
+        width: 300px;
+    }
+
+    .contacts {
+        text-align: center;
+    }
+
+    .designedby {
+        justify-content: center;
+    }
+
+    .social {
+        padding: 20px 0;
+    }
+
+    .footer {
+        padding: 35px 0;
+    }
+}
 
