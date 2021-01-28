@@ -357,6 +357,8 @@ img {
     flex-direction: row-reverse;
 }
 
+.main-slider .swiper-pagination {}
+
 .twitter {
     background-color: #f7f7f7;
     position: relative;
